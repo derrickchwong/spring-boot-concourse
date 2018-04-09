@@ -25,5 +25,4 @@ jobs:
   - put: cf
     params:
       manifest: git-repo/manifest.yml
-      current_app_name: spring-boot-concourse
       path: build-output/*.jar
