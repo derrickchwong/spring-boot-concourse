@@ -21,9 +21,9 @@ jobs:
   - get: git-repo
     trigger: true
   - task: Build project
-    file: spring-boot-concourse/concourse/tasks/build.yml
-  - task: Deploy artifact
-    file: spring-boot-concourse/concourse/tasks/deploy.yml
+    file: git-repo/concourse/tasks/build.yml
+#  - task: Deploy artifact
+#    file: git-repo/concourse/tasks/deploy.yml
   - put: cf
     params:
       manifest: git-repo/manifest.yml
