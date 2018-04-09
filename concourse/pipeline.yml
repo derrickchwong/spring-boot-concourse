@@ -28,4 +28,4 @@ jobs:
     params:
       manifest: git-repo/manifest.yml
 #      current_app_name: spring-music
-      path: build-output/spring-boot-concourse-*.jar
+      path: build-output/*.jar
