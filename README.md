@@ -2,7 +2,7 @@
 
 Prerequisite:
 
-Download [Fly CLI for Windows](https://github.com/concourse/fly/releases/download/v3.10.1-rc.15/fly_windows_amd64.exe) or [Fly CLI for Mac](https://github.com/concourse/fly/releases/download/v3.10.1-rc.15/fly_darwin_amd64) or [Fly CLI for Linux](https://github.com/concourse/fly/releases/download/v3.10.1-rc.15/fly_linux_amd64)
+Download [Fly CLI for Windows](https://35.185.103.177/api/v1/cli?arch=amd64&platform=windows) or [Fly CLI for Mac](https://35.185.103.177/api/v1/cli?arch=amd64&platform=darwin) or [Fly CLI for Linux](https://35.185.103.177/api/v1/cli?arch=amd64&platform=linux)
 
 Steps:
 
